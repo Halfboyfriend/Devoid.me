@@ -41,3 +41,8 @@ body {
     margin-top: 10px;
     font-size: 15px;
 }
+
+#landing-page a{
+    color: #fff;
+    margin-right: 10px;
+}
