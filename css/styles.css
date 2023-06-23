@@ -7,7 +7,8 @@
 }
 
 body {
-    background-image: url(../images/bgimage.gif);
+    /* background-image: url(../images/bgimage.gif); */
+    background-color: #063E85;
     position: relative;
     color: white;
     font-family: 'Montserrat';
@@ -118,6 +119,7 @@ body {
 @media only screen and (max-width: 700px) {
 
     #about #logo{
+        margin-top: 10px;
         width: 200px;
         height: 200px;
        border: 10px solid #063E85;
