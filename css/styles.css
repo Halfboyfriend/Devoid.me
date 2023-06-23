@@ -46,3 +46,41 @@ body {
     color: #fff;
     margin-right: 10px;
 }
+
+/* PROJECTS */
+#projects {
+
+    color: #fff;
+}
+#projects h2{
+    font-weight: 600;
+}
+#projects #proj-sect{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #063E85;
+
+}
+#projects img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+#projects a{
+    color: #fff;
+    float: right;
+    font-family: 'Tsuki Typeface';
+}
+
+#projects h3{
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#projects p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
