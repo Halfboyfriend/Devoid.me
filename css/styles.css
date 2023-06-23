@@ -7,7 +7,12 @@
 }
 
 body {
-    background-color: #121212;
+    background-image: url(../images/bgimage.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: blur(5%);
+    -webkit-backdrop-filter: blur(5);
     color: white;
     font-family: 'Montserrat';
 }
