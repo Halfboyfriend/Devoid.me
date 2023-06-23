@@ -8,11 +8,36 @@
 
 body {
     background-image: url(../images/bgimage.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     position: relative;
-    filter: blur(5%);
-    -webkit-backdrop-filter: blur(5);
     color: white;
     font-family: 'Montserrat';
+}
+
+.navbar-brand {
+    font-weight: 600;
+    color: #063E85;
+}
+#landing-page{
+    position: relative;
+    top: 100px;
+    max-width: 800px;
+}
+
+#landing-page img{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #063E85;
+}
+
+#landing-page h2{
+    font-weight: 700;
+}
+
+#landing-page p{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2em;
+    margin-top: 10px;
+    font-size: 15px;
 }
